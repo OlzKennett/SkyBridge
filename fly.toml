@@ -1,7 +1,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'skybridge-FIREBORN'
+app = 'skybridge-fireborn'
 primary_region = 'lhr'
 [build]
 image = "videah/skybridge:latest"
@@ -14,7 +14,7 @@ image = "videah/skybridge:latest"
   min_machines_running = 0
 
 [env]
-  SKYBRIDGE_BASEURL = 'skybridge-FIREBORN.fly.dev' 
+  SKYBRIDGE_BASEURL = 'skybridge-fireborn.fly.dev' 
   SKYBRIDGE_SHOW_INDEX = 'true'
   FLY_SWAP = 'true'
   SKYBRIDGE_SECRET='43434343' 
